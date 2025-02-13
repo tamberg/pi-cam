@@ -19,11 +19,13 @@ A Raspberry Pi based time lapse camera, work in progress.
 ## Set up disk
 - Plug in SSD Disk via USB
 - Format the disk and label it as "capture"
-    ```$ sudo apt install -y btrfs-progs
+    ```
+    $ sudo apt install -y btrfs-progs
     $ sudo mkfs.btrfs -L capture /dev/sda1```
 
 - Then add a mount point to the operating system
-    ```$ echo '/dev/disk/by-label/capture /mnt/elements btrfs  defaults,auto,user  0 0' \
+    ```
+    $ echo '/dev/disk/by-label/capture /mnt/elements btrfs  defaults,auto,user  0 0' \
  | sudo tee --append /etc/fstab```
 
 - Then mount the disk (and set user pi)
