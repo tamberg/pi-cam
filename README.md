@@ -10,6 +10,8 @@ A Raspberry Pi based time lapse camera, work in progress.
 - Open http://raspberrypi.local:8080/ to see pictures (F5 to refresh)
 
 ## Download pictures
+On your computer
+
 - Install the _wget_ tool
     ```bash
     $ brew install wget
@@ -34,8 +36,16 @@ A Raspberry Pi based time lapse camera, work in progress.
 - [Samsung SSD Disk 500 GB](https://www.digitec.ch/en/s1/product/samsung-portable-t7-red-1000-gb-external-ssd-13199901)
 - [Micro USB power adapter](https://www.pi-shop.ch/raspberry-pi-12-5w-micro-usb-power-supply-2255)
 
+## Set up the SD card
+On your computer
+
+- , plug in the SD card
+- 
+
 ## Set up the disk
-Thanks to [@cspindler](https://github.com/cspindler).
+On the Pi.
+
+> Thanks to [@cspindler](https://github.com/cspindler)
 
 - Plug in the disk via USB
 - Install BTRFS file system tools
