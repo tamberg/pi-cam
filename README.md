@@ -2,12 +2,12 @@
 A Raspberry Pi based time lapse camera, work in progress.
 
 ## See pictures
+> Note: Your computer has to be in the same Wi-Fi network
+
 - Plug in the power
 - Wait for the Pi to start up
 - Wait for the camera to start taking pictures
 - Open http://raspberrypi.local:8080 to see them (F5 to refresh)
-
-> Note: Your computer has to be in the same Wi-Fi network
 
 ## Hardware
 - [Raspberry Pi 3 B+](https://www.pi-shop.ch/raspberry-pi-3-model-b)
