@@ -1,7 +1,7 @@
 # Pi Cam
 A Raspberry Pi based time lapse camera, work in progress.
 
-> Note: We assume your computer runs MacOS
+> Note: We assume your computer runs MacOS.
 
 ## Take pictures
 - Plug in the power cable to the Pi and a socket
@@ -11,7 +11,7 @@ A Raspberry Pi based time lapse camera, work in progress.
 ## Browse pictures
 On your computer
 
-> Note: Your computer has to be in the same Wi-Fi network
+> Note: Your computer has to be in the same Wi-Fi network.
 
 - Open http://raspberrypi.local:8080/
 - Press F5 or refresh the page
@@ -20,7 +20,7 @@ On your computer
 ## Log into the Pi
 On your computer
 
-> Note: Your computer has to be in the same Wi-Fi network
+> Note: Your computer has to be in the same Wi-Fi network.
 
 - Open the _Terminal_ app
 - Connect to the Pi with _ssh_
@@ -74,7 +74,7 @@ On your computer
 ## Set up the disk
 On the Pi.
 
-> Thanks to [@cspindler](https://github.com/cspindler)
+> Thanks to [@cspindler](https://github.com/cspindler).
 
 - Plug in the disk via USB
 - Install BTRFS file system tools
