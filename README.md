@@ -37,6 +37,8 @@ On your computer
 - [Micro USB power adapter](https://www.pi-shop.ch/raspberry-pi-12-5w-micro-usb-power-supply-2255)
 
 ## Set up the SD card
+> Note: Your computer has to be in the same Wi-Fi network
+
 On your computer
 
 - Install _Pi Imager_ from https://www.raspberrypi.com/software/
