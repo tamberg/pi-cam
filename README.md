@@ -11,7 +11,9 @@ On your computer
 
 > Note: Your computer has to be in the same Wi-Fi network
 
-- Open http://raspberrypi.local:8080/ to see pictures (F5 to refresh)
+- Open http://raspberrypi.local:8080/
+- Press F5 or refresh the page
+- Browse directories
 
 ## Access the Pi
 On your computer
