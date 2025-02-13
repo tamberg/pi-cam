@@ -35,6 +35,8 @@ A Raspberry Pi based time lapse camera, work in progress.
 - [Micro USB power adapter](https://www.pi-shop.ch/raspberry-pi-12-5w-micro-usb-power-supply-2255)
 
 ## Set up the disk
+Thanks to [@cspindler](https://github.com/cspindler).
+
 - Plug in the SSD disk via USB
 - Format the disk and label it as _capture_
     ```bash
