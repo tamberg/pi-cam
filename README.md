@@ -111,6 +111,12 @@ On the Pi.
     $ sudo apt install tree
     $ tree /mnt/elements
     ```
+
+## Set up Web UI service
+On the Pi.
+
+TODO
+
 ## Set up the camera
 On the Pi.
 
@@ -122,11 +128,6 @@ On the Pi.
 - [Browse pictures](#browse-pictures)
 
 ## Set up photo service
-On the Pi.
-
-TODO
-
-## Set up Web UI service
 On the Pi.
 
 TODO
