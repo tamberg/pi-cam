@@ -1,7 +1,7 @@
 # Pi Cam
 A Raspberry Pi based time lapse camera, work in progress.
 
-> Note: We assume you use a MacOS computer
+> Note: We assume your computer runs MacOS
 
 ## Take pictures
 - Plug in the power
