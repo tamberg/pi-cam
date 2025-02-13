@@ -4,9 +4,9 @@ A Raspberry Pi based time lapse camera, work in progress.
 > Note: We assume your computer runs MacOS
 
 ## Take pictures
-- Plug in the power
-- Wait for the Pi to start up
-- Wait for the camera to start taking pictures
+- Plug in the power cable to the Pi and a socket
+- Wait for the Pi to start up (might take 5 minutes)
+- Wait for the camera to take pictures (every 15 minutes)
 
 ## Browse pictures
 On your computer
