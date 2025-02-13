@@ -112,7 +112,21 @@ On the Pi.
     $ tree /mnt/elements
     ```
 ## Set up the camera
+On the Pi.
+
+- TODO
+- Try to take a picture
+    ```bash
+    $ ./photo.sh
+    ```
+- [Browse pictures](#browse-pictures)
+
+## Set up photo service
+On the Pi.
+
 TODO
 
-## Set up services
+## Set up Web UI service
+On the Pi.
+
 TODO
