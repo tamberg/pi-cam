@@ -39,8 +39,14 @@ On your computer
 ## Set up the SD card
 On your computer
 
-- , plug in the SD card
-- 
+- Install _Pi Imager_ from https://www.raspberrypi.com/software/
+- Plug in the SD card
+- Choose device Pi 3
+- Choose Pi OS (other) > Pi OS Lite (64-bit)
+- Choose SD card storage (compare size)
+- Next > Edit > Set Wi-Fi credentials, user _pi_, password, enable SSH, etc.
+- Wait for the SD card to be written
+- Plug the SD card into the Pi
 
 ## Set up the disk
 On the Pi.
