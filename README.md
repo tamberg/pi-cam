@@ -27,6 +27,10 @@ On your computer.
     ```bash
     $ ssh pi@raspberrypi.local
     ```
+- List files with _tree_
+    ```bash
+    $ tree /mnt/elements
+    ```
 
 ## Download pictures
 On your computer.
