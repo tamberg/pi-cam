@@ -76,6 +76,7 @@ On your computer.
     - ...
 - Wait for the SD card to be written
 - Plug the SD card into the Pi
+- Try to [log into the Pi](#log-into-the-pi)
 
 ## Set up the disk
 On the Pi.
