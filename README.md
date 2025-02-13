@@ -42,9 +42,13 @@ On your computer
     $ cd ~/Desktop/pi-cam
     ```
 - Sync picture files
-  ```bash
-  $ wget --mirror http://raspberrypi.local:8080/
-  ```
+    ```bash
+    $ wget --mirror http://raspberrypi.local:8080/
+    ```
+- Open in _Finder_
+    ```bash
+    $ open ~/Desktop/pi-cam
+    ```
 
 ## Hardware
 - [Raspberry Pi 3 B+](https://www.pi-shop.ch/raspberry-pi-3-model-b)
