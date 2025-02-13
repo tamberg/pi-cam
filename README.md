@@ -27,6 +27,10 @@ On your computer.
     ```bash
     $ ssh pi@raspberrypi.local
     ```
+- List files on disk with _tree_
+    ```bash
+    $ tree /mnt/elements
+    ```
 - See settings in _photo.sh_
     ```bash
     $ cat photo.sh
@@ -36,11 +40,6 @@ On your computer.
     $ nano photo.sh
     CTRL-X-Y ENTER
     ```  
-- List files with _tree_
-    ```bash
-    $ tree /mnt/elements
-    ```
-
 ## Download pictures
 On your computer.
 
