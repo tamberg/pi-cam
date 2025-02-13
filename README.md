@@ -40,5 +40,5 @@ A Raspberry Pi based time lapse camera, work in progress.
 ## Optional
 - Install the tree command to list files
     ```bash
-    $ sudo apt-get install tree
+    $ sudo apt install tree
     ```
