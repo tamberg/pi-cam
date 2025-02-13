@@ -10,7 +10,7 @@ A Raspberry Pi based time lapse camera, work in progress.
 - Open http://raspberrypi.local:8080/ to see pictures (F5 to refresh)
 
 ## Download pictures
-- Install _wget_
+- Install the _wget_ tool
     ```bash
     $ brew install wget
     ```
@@ -37,7 +37,7 @@ A Raspberry Pi based time lapse camera, work in progress.
 ## Set up the disk
 Thanks to [@cspindler](https://github.com/cspindler).
 
-- Plug in the SSD disk via USB
+- Plug in the disk via USB
 - Install BTRFS file system tools
     ```bash
     $ sudo apt install -y btrfs-progs
