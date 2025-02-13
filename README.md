@@ -27,6 +27,15 @@ On your computer.
     ```bash
     $ ssh pi@raspberrypi.local
     ```
+- See settings in _photo.sh_
+    ```bash
+    $ cat photo.sh
+    ```  
+- Change settings in _photo.sh_
+    ```bash
+    $ nano photo.sh
+    CTRL-X-Y ENTER
+    ```  
 - List files with _tree_
     ```bash
     $ tree /mnt/elements
