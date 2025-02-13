@@ -20,7 +20,7 @@ On your computer
 
 > Note: Your computer has to be in the same Wi-Fi network
 
-- Open the Terminal app
+- Open the _Terminal_ app
 - Connect to the Pi with _ssh_
     ```bash
     $ ssh pi@raspberrypi.local
