@@ -15,7 +15,7 @@ On your computer
 
 - Open http://raspberrypi.local:8080/
 - Press F5 or refresh the page
-- Browse directories
+- Browse the directories
 
 ## Log into the Pi
 On your computer
