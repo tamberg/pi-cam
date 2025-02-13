@@ -93,7 +93,7 @@ On the Pi.
     | sudo tee --append /etc/fstab
     ```
 
-- Mount the disk and change owner to user _pi_
+- Mount the disk and change its owner to _pi_
     ```bash
     $ mount /mnt/elements
     $ sudo chown pi /mnt/elements
