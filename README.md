@@ -112,7 +112,7 @@ On the Pi.
     $ tree /mnt/elements
     ```
 
-## Set up Web UI service
+## Set up the Web UI service
 On the Pi.
 
 TODO
@@ -127,7 +127,7 @@ On the Pi.
     ```
 - [Browse pictures](#browse-pictures)
 
-## Set up photo service
+## Set up the photo service
 On the Pi.
 
 TODO
