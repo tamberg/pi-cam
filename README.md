@@ -67,10 +67,10 @@ On your computer.
 - Choose device _Pi 3_
 - Choose _Pi OS (other)_ > _Pi OS Lite (64-bit)_
 - Choose SD card storage (compare size)
-- Next > Edit > Set
-    - Wi-Fi credentials
+- Next > Edit
+    - Wi-Fi credentials, e.g. MY_SSID, MY_PASSWORD
     - Computer name _raspberrypi_
-    - Uuser _pi_
+    - User _pi_
     - Password
     - Enable SSH
     - ...
