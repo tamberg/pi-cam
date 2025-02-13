@@ -52,6 +52,7 @@ On your computer.
     $ open ~/Desktop/pi-cam
     ```
 
+# Make your own
 ## Hardware
 - [Raspberry Pi 3 B+](https://www.pi-shop.ch/raspberry-pi-3-model-b) (CHF 34)
 - [Kingston SD card 16 GB](https://www.pi-shop.ch/kingston-microsdhc-karte-industrial-uhs-i-16-gb) (CHF 23)
