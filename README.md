@@ -9,7 +9,7 @@ A Raspberry Pi based time lapse camera, work in progress.
 - Wait for the camera to take pictures (every 15 minutes)
 
 ## Browse pictures
-On your computer
+On your computer.
 
 > Note: Your computer has to be in the same Wi-Fi network.
 
@@ -18,7 +18,7 @@ On your computer
 - Browse the directories
 
 ## Log into the Pi
-On your computer
+On your computer.
 
 > Note: Your computer has to be in the same Wi-Fi network.
 
@@ -29,7 +29,7 @@ On your computer
     ```
 
 ## Download pictures
-On your computer
+On your computer.
 
 - Install the _wget_ tool
     ```bash
@@ -60,7 +60,7 @@ On your computer
 - [Micro USB power adapter](https://www.pi-shop.ch/raspberry-pi-12-5w-micro-usb-power-supply-2255) (CHF 12)
 
 ## Set up the SD card
-On your computer
+On your computer.
 
 - Install _Pi Imager_ from https://www.raspberrypi.com/software/
 - Plug in the SD card
