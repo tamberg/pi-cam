@@ -41,8 +41,8 @@ On your computer
 
 - Install _Pi Imager_ from https://www.raspberrypi.com/software/
 - Plug in the SD card
-- Choose device Pi 3
-- Choose Pi OS (other) > Pi OS Lite (64-bit)
+- Choose device _Pi 3_
+- Choose _Pi OS (other)_ > _Pi OS Lite (64-bit)_
 - Choose SD card storage (compare size)
 - Next > Edit > Set Wi-Fi credentials, user _pi_, password, enable SSH, etc.
 - Wait for the SD card to be written
