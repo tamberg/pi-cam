@@ -35,11 +35,13 @@ On your computer.
     ```bash
     $ cat photo.sh
     ```  
-- Change settings in _photo.sh_
+- Change a file
     ```bash
-    $ nano photo.sh
+    $ nano my.txt
+    ... change ...
     CTRL-X-Y ENTER
-    ```  
+    ```
+
 ## Download pictures
 On your computer.
 
