@@ -38,9 +38,13 @@ A Raspberry Pi based time lapse camera, work in progress.
 Thanks to [@cspindler](https://github.com/cspindler).
 
 - Plug in the SSD disk via USB
-- Format the disk and label it as _capture_
+- Install BTRFS file system tools
     ```bash
     $ sudo apt install -y btrfs-progs
+    ```
+
+- Format the disk and label it as _capture_
+    ```bash
     $ sudo mkfs.btrfs -L capture /dev/sda1
     ```
 
@@ -50,7 +54,7 @@ Thanks to [@cspindler](https://github.com/cspindler).
     | sudo tee --append /etc/fstab
     ```
 
-- Mount the disk and set user _pi_
+- Mount the disk and change owner to user _pi_
     ```bash
     $ mount /mnt/elements
     $ sudo chown pi /mnt/elements
