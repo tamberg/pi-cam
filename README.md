@@ -81,3 +81,8 @@ On the Pi.
     $ sudo apt install tree
     $ tree /mnt/elements
     ```
+## Set up the camera
+TODO
+
+## Set up services
+TODO
