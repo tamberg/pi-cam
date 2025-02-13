@@ -15,7 +15,7 @@ On your computer
 - Press F5 or refresh the page
 - Browse directories
 
-## Access the Pi
+## Log into the Pi
 On your computer
 
 > Note: Your computer has to be in the same Wi-Fi network
