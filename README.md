@@ -1,13 +1,28 @@
 # Pi Cam
 A Raspberry Pi based time lapse camera, work in progress.
 
-## See pictures
-> Note: Your computer has to be in the same Wi-Fi network
-
+## Take pictures
 - Plug in the power
 - Wait for the Pi to start up
 - Wait for the camera to start taking pictures
+
+## Browse pictures
+On your computer
+
+> Note: Your computer has to be in the same Wi-Fi network
+
 - Open http://raspberrypi.local:8080/ to see pictures (F5 to refresh)
+
+## Access the Pi
+On your computer
+
+> Note: Your computer has to be in the same Wi-Fi network
+
+- Open the Terminal app
+- Connect to the Pi with _ssh_
+    ```bash
+    $ ssh pi@raspberrypi.local
+    ```
 
 ## Download pictures
 On your computer
@@ -37,8 +52,6 @@ On your computer
 - [Micro USB power adapter](https://www.pi-shop.ch/raspberry-pi-12-5w-micro-usb-power-supply-2255)
 
 ## Set up the SD card
-> Note: Your computer has to be in the same Wi-Fi network
-
 On your computer
 
 - Install _Pi Imager_ from https://www.raspberrypi.com/software/
