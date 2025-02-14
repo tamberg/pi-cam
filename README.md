@@ -39,7 +39,7 @@ On your computer.
     ```bash
     $ nano my.txt
     ```
-    save with _CTRL-X-Y ENTER_
+    Save with _CTRL-X-Y ENTER_
 
 ## Download pictures
 On your computer.
@@ -172,12 +172,12 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
     ```bash
     $ nano ~/photo.sh
     ```
-    paste
+    Paste this
     ```
     #!/bin/bash
     libcamera-jpeg --width 4624 --height 3472 -o /mnt/elements/"`date +"%Y-%m-%d"`"/image-"`date +"%Y-%m-%dT%H-%M-%SZ"`".jpg
     ```
-    save with _CTRL-X-Y ENTER_
+    Save with _CTRL-X-Y ENTER_
 
 - Try to take a picture
     ```bash
