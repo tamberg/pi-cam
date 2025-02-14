@@ -158,16 +158,16 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
     ```
     e.g.
     ```
-Available cameras
------------------
-0 : arducam_64mp [9248x6944 10-bit RGGB] (/base/soc/i2c0mux/i2c@1/arducam_64mp@1a)
-    Modes: 'SRGGB10_CSI2P' : 1280x720 [120.09 fps - (2064, 2032)/5120x2880 crop]
-                             1920x1080 [60.04 fps - (784, 1312)/7680x4320 crop]
-                             2312x1736 [30.00 fps - (0, 0)/9248x6944 crop]
-                             3840x2160 [20.00 fps - (784, 1312)/7680x4320 crop]
-                             4624x3472 [10.00 fps - (0, 0)/9248x6944 crop]
-                             8000x6000 [3.00 fps - (624, 472)/9248x6944 crop]
-                             9152x6944 [2.70 fps - (0, 0)/9248x6944 crop]
+    Available cameras
+    -----------------
+    0 : arducam_64mp [9248x6944 10-bit RGGB] (/base/soc/i2c0mux/i2c@1/arducam_64mp@1a)
+        Modes: 'SRGGB10_CSI2P' : 1280x720 [120.09 fps - (2064, 2032)/5120x2880 crop]
+            1920x1080 [60.04 fps - (784, 1312)/7680x4320 crop]
+            2312x1736 [30.00 fps - (0, 0)/9248x6944 crop]
+            3840x2160 [20.00 fps - (784, 1312)/7680x4320 crop]
+            4624x3472 [10.00 fps - (0, 0)/9248x6944 crop]
+            8000x6000 [3.00 fps - (624, 472)/9248x6944 crop]
+            9152x6944 [2.70 fps - (0, 0)/9248x6944 crop]
     ```
 - Try to take a picture
     ```bash
