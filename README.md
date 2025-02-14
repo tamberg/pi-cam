@@ -8,7 +8,7 @@ A Raspberry Pi based time lapse camera, initiated by Hsinyi Lin.
 ## Take pictures
 - Plug the power cable into the Pi and a socket
 - Wait for the Pi to start up (might take 5 minutes)
-- Wait for the camera to take pictures (every 15 minutes)
+- Wait for the camera to take pictures (every 1 minute)
 
 ## Browse pictures
 On your computer.
@@ -253,7 +253,7 @@ On the Pi.
     ```
     Save with _CTRL-X-Y ENTER_
 
-- Configure the timer, e.g. 15'
+- Configure the timer, e.g. every 1 minute
     ```
     OnCalendar=*:0/1
     ```
