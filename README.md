@@ -57,15 +57,19 @@ On your computer, optional.
 ## Work on the Pi
 On the Pi, optional.
 
-- List files on disk with _tree_
+- List files on the disk with _tree_
     ```bash
     $ tree /mnt/elements
     ```
-- See file content with _cat_
+- Delete all files on the disk with _rm_
+    ```bash
+    $ rm -rf /mnt/elements/*
+    ```
+- See text file content with _cat_
     ```bash
     $ cat photo.sh
     ```  
-- Change a file with _nano_
+- Change a text file with _nano_
     ```bash
     $ nano my.txt
     ```
