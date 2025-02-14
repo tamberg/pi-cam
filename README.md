@@ -133,7 +133,7 @@ On the Pi.
 TODO
 
 ## Set up the camera
-On the Pi.
+On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/64MP-Hawkeye/#software-guide).
 
 - TODO
 - Try to take a picture
