@@ -269,5 +269,6 @@ On the Pi.
     ```
 
 ## More
+- https://www.raspberrypi.com/documentation/computers/getting-started.html
+- https://www.raspberrypi.com/documentation/computers/camera_software.html
 - https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/64MP-Hawkeye/
-- 
