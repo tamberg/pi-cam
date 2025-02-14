@@ -228,6 +228,7 @@ On the Pi.
     $ sudo nano /lib/systemd/system/pi-cam-photo.timer
     ```
     Paste this
+    ```
     [Unit]
     Description=Pi cam photo timer
     
