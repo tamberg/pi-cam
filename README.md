@@ -158,7 +158,7 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
     ```
     e.g.
     ```
-    Available cameras
+Available cameras
 -----------------
 0 : arducam_64mp [9248x6944 10-bit RGGB] (/base/soc/i2c0mux/i2c@1/arducam_64mp@1a)
     Modes: 'SRGGB10_CSI2P' : 1280x720 [120.09 fps - (2064, 2032)/5120x2880 crop]
