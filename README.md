@@ -29,6 +29,9 @@ On your computer.
     ```bash
     $ ssh pi@raspberrypi.local
     ```
+
+On the Pi.
+
 - List files on disk with _tree_
     ```bash
     $ tree /mnt/elements
