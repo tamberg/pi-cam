@@ -120,7 +120,7 @@ On the Pi.
     $ sudo chown pi /mnt/elements
     ```
 
-- Install the _tree_ command to list files (optional)
+- Install the _tree_ command to list files
     ```bash
     $ sudo apt install tree
     $ tree /mnt/elements
