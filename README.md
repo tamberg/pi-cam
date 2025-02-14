@@ -71,7 +71,7 @@ On your computer.
 ## Get the hardware
 - [Raspberry Pi 3 B+](https://www.pi-shop.ch/raspberry-pi-3-model-b) (CHF 34)
 - [Kingston SD card 16 GB](https://www.pi-shop.ch/kingston-microsdhc-karte-industrial-uhs-i-16-gb) (CHF 23)
-- [ArduCam 64 MP Autofocus](https://www.pi-shop.ch/arducam-1-1-32-64mp-auto-focus-camera-module-for-raspberry-pi) (CHF 30)
+- [ArduCam 64 MP Autofocus](https://www.pi-shop.ch/arducam-1-1-32-64mp-auto-focus-camera-module-for-raspberry-pi) (CHF 56)
 - [Samsung SSD Disk 500 GB](https://www.digitec.ch/en/s1/product/samsung-portable-t7-red-1000-gb-external-ssd-13199901) (CHF 137)
 - [Micro USB power adapter](https://www.pi-shop.ch/raspberry-pi-12-5w-micro-usb-power-supply-2255) (CHF 12)
 
@@ -267,3 +267,7 @@ On the Pi.
     ```bash
     $ sudo systemctl start pi-cam-photo.timer
     ```
+
+## More
+- https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/64MP-Hawkeye/
+- 
