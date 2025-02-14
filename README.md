@@ -3,6 +3,8 @@ A Raspberry Pi based time lapse camera, initiated by Hsinyi Lin.
 
 > Note: We assume your computer runs MacOS.
 
+![pi-cam](https://github.com/user-attachments/assets/3493b081-e213-402c-ba55-5b4b4fe3a4fe)
+
 ## Take pictures
 - Plug the power cable into the Pi and a socket
 - Wait for the Pi to start up (might take 5 minutes)
