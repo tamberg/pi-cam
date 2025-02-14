@@ -178,6 +178,10 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
     #!/bin/bash
     libcamera-jpeg --width 4624 --height 3472 -o /mnt/elements/"`date +"%Y-%m-%d"`"/image-"`date +"%Y-%m-%dT%H-%M-%SZ"`".jpg
     ```
+    save
+    ```bash
+    CTRL-X-Y ENTER
+    ```
 - Try to take a picture
     ```bash
     $ ./photo.sh
