@@ -19,33 +19,6 @@ On your computer.
 - Press F5 or refresh the page
 - Browse the directories
 
-## Log into the Pi
-On your computer.
-
-> Note: Your computer has to be in the same Wi-Fi network.
-
-- Open the _Terminal_ app
-- Connect to the Pi with _ssh_
-    ```bash
-    $ ssh pi@raspberrypi.local
-    ```
-
-On the Pi.
-
-- List files on disk with _tree_
-    ```bash
-    $ tree /mnt/elements
-    ```
-- See file content with _cat_
-    ```bash
-    $ cat photo.sh
-    ```  
-- Change a file with _nano_
-    ```bash
-    $ nano my.txt
-    ```
-    Save with _CTRL-X-Y ENTER_
-
 ## Download pictures
 On your computer.
 
@@ -69,6 +42,34 @@ On your computer.
     ```bash
     $ open ~/Desktop/pi-cam
     ```
+
+## Log into the Pi (optional)
+On your computer.
+
+> Note: Your computer has to be in the same Wi-Fi network.
+
+- Open the _Terminal_ app
+- Connect to the Pi with _ssh_
+    ```bash
+    $ ssh pi@raspberrypi.local
+    ```
+
+## Work on the Pi (optional)
+On the Pi.
+
+- List files on disk with _tree_
+    ```bash
+    $ tree /mnt/elements
+    ```
+- See file content with _cat_
+    ```bash
+    $ cat photo.sh
+    ```  
+- Change a file with _nano_
+    ```bash
+    $ nano my.txt
+    ```
+    Save with _CTRL-X-Y ENTER_
 
 # Make your own
 ## Get the hardware
