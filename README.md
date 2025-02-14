@@ -126,8 +126,27 @@ On the Pi, as suggested by [@cspindler](https://github.com/cspindler).
 
 ## Set up the Web UI service
 On the Pi.
-
-TODO
+- Create _pi-cam-webui.service_
+    ```bash
+    $ sudo nano /lib/systemd/system/pi-cam-webui.service
+    ```
+    Paste this
+    ```
+    [Unit]
+    Description=Pi Cam Web UI service
+    Requires=mnt-elements.mount
+    After=mnt-elements.mount
+    
+    [Service]
+    User=pi
+    WorkingDirectory=/mnt/elements
+    ExecStart=/usr/bin/python -m http.server 8080
+    Restart=on-failure
+    
+    [Install]
+    WantedBy=multi-user.target
+    ```
+    Save with _CTRL-X-Y ENTER_
 
 ## Set up the camera
 On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/64MP-Hawkeye/#software-guide).
