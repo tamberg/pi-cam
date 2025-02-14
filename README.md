@@ -38,8 +38,8 @@ On your computer.
 - Change a file
     ```bash
     $ nano my.txt
+    # CTRL-X-Y ENTER
     ```
-    CTRL-X-Y ENTER
     
 ## Download pictures
 On your computer.
