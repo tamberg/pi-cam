@@ -93,9 +93,7 @@ On your computer.
 - Try to [log into the Pi](#log-into-the-pi)
 
 ## Set up the disk
-On the Pi.
-
-> Thanks to [@cspindler](https://github.com/cspindler).
+On the Pi, based on input by [@cspindler](https://github.com/cspindler).
 
 - Plug in the disk via USB
 - Install BTRFS file system tools
