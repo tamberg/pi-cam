@@ -212,7 +212,7 @@ On the Pi.
     Paste this
     ```
     [Unit]
-    Description=Take a photo, store to disk, name by date
+    Description=Pi cam photo service
     Requires=mnt-elements.mount
     After=mnt-elements.mount
     
@@ -223,5 +223,19 @@ On the Pi.
     ```
     Save with _CTRL-X-Y ENTER_
 
-
-TODO
+- Create _pi-cam-photo.timer_
+    ```bash
+    $ sudo nano /lib/systemd/system/pi-cam-photo.timer
+    ```
+    Paste this
+    [Unit]
+    Description=Pi cam photo timer
+    
+    [Timer]
+    OnBootSec=0min
+    OnCalendar=*:0/1
+    Unit=pi-cam-photo.service
+    
+    [Install]
+    WantedBy=multi-user.target
+    ```
