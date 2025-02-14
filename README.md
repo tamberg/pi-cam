@@ -148,6 +148,15 @@ On the Pi.
     ```
     Save with _CTRL-X-Y ENTER_
 
+- Enable the service
+    ```bash
+    $ sudo systemctl enable pi-cam-webui.service
+    ```
+- Start the service
+    ```bash
+    $ sudo systemctl start pi-cam-webui.service
+    ```
+
 ## Set up the camera
 On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/64MP-Hawkeye/#software-guide).
 
@@ -241,3 +250,12 @@ On the Pi.
     WantedBy=multi-user.target
     ```
     Save with _CTRL-X-Y ENTER_
+- Enable the service and timer
+    ```bash
+    $ sudo systemctl enable pi-cam-photo.service
+    $ sudo systemctl enable pi-cam-photo.timer
+    ```
+- Start the timer
+    ```bash
+    $ sudo systemctl start pi-cam-photo.timer
+    ```
