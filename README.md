@@ -8,7 +8,7 @@ A Raspberry Pi based time lapse camera, initiated by Hsinyi Lin.
 ## Take pictures
 - Plug the power cable into the Pi and a socket
 - Wait for the Pi to start up (takes a few minutes)
-- Wait for the camera to take pictures (every minute)
+- Wait for the camera to take pictures (once a minute)
 
 ## Browse pictures
 On your computer.
