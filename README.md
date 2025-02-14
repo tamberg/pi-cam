@@ -205,4 +205,23 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
 ## Set up the photo service
 On the Pi.
 
+- Create _pi-cam-photo.service_
+    ```bash
+    $ sudo nano /lib/systemd/system/pi-cam-photo.service
+    ```
+    Paste this
+    ```
+    [Unit]
+    Description=Take a photo, store to disk, name by date
+    Requires=mnt-elements.mount
+    After=mnt-elements.mount
+    
+    [Service]
+    User=pi
+    WorkingDirectory=/home/pi
+    ExecStart=/usr/bin/bash photo.sh
+    ```
+    Save with _CTRL-X-Y ENTER_
+
+
 TODO
