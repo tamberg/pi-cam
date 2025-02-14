@@ -43,8 +43,8 @@ On your computer.
     $ open ~/Desktop/pi-cam
     ```
 
-## Log into the Pi (optional)
-On your computer.
+## Log into the Pi
+On your computer, optional.
 
 > Note: Your computer has to be in the same Wi-Fi network.
 
@@ -54,8 +54,8 @@ On your computer.
     $ ssh pi@raspberrypi.local
     ```
 
-## Work on the Pi (optional)
-On the Pi.
+## Work on the Pi
+On the Pi, optional.
 
 - List files on disk with _tree_
     ```bash
