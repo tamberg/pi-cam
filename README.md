@@ -169,6 +169,15 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
             8000x6000 [3.00 fps - (624, 472)/9248x6944 crop]
             9152x6944 [2.70 fps - (0, 0)/9248x6944 crop]
     ```
+- Create _photo.sh_
+    ```bash
+    $ nano ~/photo.sh
+    ```
+    paste
+    ```
+    #!/bin/bash
+    libcamera-jpeg --width 4624 --height 3472 -o /mnt/elements/"`date +"%Y-%m-%d"`"/image-"`date +"%Y-%m-%dT%H-%M-%SZ"`".jpg
+    ```
 - Try to take a picture
     ```bash
     $ ./photo.sh
