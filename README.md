@@ -252,6 +252,12 @@ On the Pi.
     WantedBy=multi-user.target
     ```
     Save with _CTRL-X-Y ENTER_
+
+- Configure the timer, e.g. 15'
+    ```
+    OnCalendar=*:0/1
+    ```
+
 - Enable the service and timer
     ```bash
     $ sudo systemctl enable pi-cam-photo.service
