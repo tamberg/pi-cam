@@ -1,5 +1,5 @@
 # Pi Cam
-A Raspberry Pi based time lapse camera, work in progress.
+A Raspberry Pi based time lapse camera, initiated by Hsinyi Lin.
 
 > Note: We assume your computer runs MacOS.
 
@@ -158,7 +158,7 @@ On the Pi.
     ```
 
 ## Set up the camera
-On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/64MP-Hawkeye/#software-guide).
+On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Native-camera/64MP-Hawkeye/#software-guide), debugged with [@Fede85](https://github.com/Fede85).
 
 - Connect the camera to the Pi
 - Download _install_pivariety_pkgs.sh_
