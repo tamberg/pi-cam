@@ -31,16 +31,16 @@ On your computer.
     ```bash
     $ tree /mnt/elements
     ```
-- See settings in _photo.sh_
+- See file content with _cat_
     ```bash
     $ cat photo.sh
     ```  
-- Change a file
+- Change a file with _nano_
     ```bash
     $ nano my.txt
-    # CTRL-X-Y ENTER
     ```
-    
+    save with _CTRL-X-Y ENTER_
+
 ## Download pictures
 On your computer.
 
@@ -177,10 +177,8 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
     #!/bin/bash
     libcamera-jpeg --width 4624 --height 3472 -o /mnt/elements/"`date +"%Y-%m-%d"`"/image-"`date +"%Y-%m-%dT%H-%M-%SZ"`".jpg
     ```
-    save
-    ```bash
-    CTRL-X-Y ENTER
-    ```
+    save with _CTRL-X-Y ENTER_
+
 - Try to take a picture
     ```bash
     $ ./photo.sh
