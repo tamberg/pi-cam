@@ -22,7 +22,7 @@ On your computer.
 ## Download pictures
 On your computer.
 
-- Install brew
+- Install the _brew_ tool
     ```bash
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
