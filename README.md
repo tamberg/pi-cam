@@ -22,6 +22,8 @@ On your computer.
 ## Download pictures
 On your computer.
 
+> Note: Your computer has to be in the same Wi-Fi network.
+
 - Install the _brew_ tool
     ```bash
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
