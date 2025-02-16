@@ -22,6 +22,10 @@ On your computer.
 ## Download pictures
 On your computer.
 
+- Install brew
+    ```bash
+    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
 - Install the _wget_ tool
     ```bash
     $ brew install wget
