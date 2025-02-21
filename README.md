@@ -284,7 +284,7 @@ On the Pi.
     ```
 
 ## Errors
-- On `zsh: command not found: $` try to leave off the first `$` character when copying the above commands.
+- On `zsh: command not found: $` try to remove the leading `$` character when copying the above commands.
 
 ## More
 - https://www.raspberrypi.com/documentation/computers/getting-started.html
