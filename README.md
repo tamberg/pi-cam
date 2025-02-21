@@ -283,6 +283,9 @@ On the Pi.
     $ sudo systemctl start pi-cam-photo.timer
     ```
 
+## Errors
+- On `zsh: command not found: $` try not to copy the first `$` character in the above commands.
+
 ## More
 - https://www.raspberrypi.com/documentation/computers/getting-started.html
 - https://www.raspberrypi.com/documentation/computers/camera_software.html
