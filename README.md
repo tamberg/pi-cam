@@ -95,9 +95,9 @@ On your computer.
 
 - Install _Pi Imager_ from https://www.raspberrypi.com/software/
 - Plug in the SD card
-- Choose device _Pi 3_
-- Choose _Pi OS (other)_ > _Pi OS Lite (64-bit)_
-- Choose SD card storage (compare size)
+- Select device _Pi 3_
+- Select _Pi OS (other)_ > _Pi OS Lite (64-bit)_
+- Select SD card storage (compare size)
 - Next > Edit
     - Wi-Fi credentials, e.g. _MY_SSID_, _MY_PASSWORD_
     - Computer name _raspberrypi_
