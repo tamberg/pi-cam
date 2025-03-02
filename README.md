@@ -99,10 +99,10 @@ On your computer.
 - Choose _Pi OS (other)_ > _Pi OS Lite (64-bit)_
 - Choose SD card storage (compare size)
 - Next > Edit
-    - Wi-Fi credentials, e.g. MY_SSID, MY_PASSWORD
+    - Wi-Fi credentials, e.g. _MY_SSID_, _MY_PASSWORD_
     - Computer name _raspberrypi_
     - User _pi_
-    - Password _PI_PASSWORD_
+    - Password, e.g. _PI_PASSWORD_
     - Enable SSH
     - ...
 - Wait for the SD card to be written
