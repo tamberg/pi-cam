@@ -260,7 +260,6 @@ On the Pi.
     WantedBy=multi-user.target
     ```
     Save with _CTRL-X-Y ENTER_
-    
 - Configure the timer, e.g. every 1 minute
     ```
     OnCalendar=*:0/1
