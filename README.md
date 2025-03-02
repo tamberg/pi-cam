@@ -160,7 +160,6 @@ On the Pi.
     WantedBy=multi-user.target
     ```
     Save with _CTRL-X-Y ENTER_
-
 - Enable the service
     ```bash
     $ sudo systemctl enable pi-cam-webui.service
@@ -217,7 +216,6 @@ On the Pi, based on [this guide](https://docs.arducam.com/Raspberry-Pi-Camera/Na
     libcamera-jpeg --width 4624 --height 3472 -o /mnt/elements/"`date +"%Y-%m-%d"`"/image-"`date +"%Y-%m-%dT%H-%M-%SZ"`".jpg
     ```
     Save with _CTRL-X-Y ENTER_
-
 - Try to take a picture
     ```bash
     $ ./photo.sh
@@ -244,7 +242,6 @@ On the Pi.
     ExecStart=/usr/bin/bash photo.sh
     ```
     Save with _CTRL-X-Y ENTER_
-
 - Create _pi-cam-photo.timer_
     ```bash
     $ sudo nano /lib/systemd/system/pi-cam-photo.timer
@@ -263,12 +260,11 @@ On the Pi.
     WantedBy=multi-user.target
     ```
     Save with _CTRL-X-Y ENTER_
-
+    
 - Configure the timer, e.g. every 1 minute
     ```
     OnCalendar=*:0/1
     ```
-
 - Enable the service and timer
     ```bash
     $ sudo systemctl enable pi-cam-photo.service
