@@ -117,24 +117,20 @@ On the Pi, as suggested by [@cspindler](https://github.com/cspindler).
     ```bash
     $ sudo apt install -y btrfs-progs
     ```
-
 - Format the disk and label it as _capture_
     ```bash
     $ sudo mkfs.btrfs -L capture /dev/sda1
     ```
-
 - Add a mount point to the operating system
     ```bash
     $ echo '/dev/disk/by-label/capture /mnt/elements btrfs  defaults,auto,user  0 0' \
     | sudo tee --append /etc/fstab
     ```
-
 - Mount the disk and change its owner to _pi_
     ```bash
     $ mount /mnt/elements
     $ sudo chown pi /mnt/elements
     ```
-
 - Install the _tree_ command to list files
     ```bash
     $ sudo apt install tree
